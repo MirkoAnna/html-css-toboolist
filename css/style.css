@@ -33,5 +33,33 @@ body {
 .contenitore {
     margin: auto;
     width: 70%;
-    margin-top: 2%;
+    margin-top: 4%;
+    background-color: rgb(255,255,255);
+}
+
+
+/* Menù */
+
+.contenitore-menù {
+    padding: 1.5%;
+    border-bottom: rgb(247,247,250);
+}
+
+#add-task {
+    background-color: rgb(82,182,235);
+    color: rgb(245,245,245);
+    border: solid rgb(82,182,235);
+    border-radius: 5px;
+    padding: 0.5%;
+    font-size: 70%;
+    margin-left: 5%;
+}
+
+#add-section {
+    background-color: rgb(255, 255, 255);
+    color: rgb(200,200,200);
+    border: solid rgb(200,200,200);
+    border-radius: 5px;
+    padding: 0.5%;
+    font-size: 70%;
 }
