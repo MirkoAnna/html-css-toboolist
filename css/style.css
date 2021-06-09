@@ -30,19 +30,15 @@ body {
 
 /* Corpo pagina */
 
-.contenitore {
-    margin: auto;
-    width: 70%;
-    margin-top: 4%;
-    background-color: rgb(255,255,255);
-}
-
-
 /* Menù */
 
 .contenitore-menù {
+    margin: auto;
+    width: 70%;
+    margin-top: 4%;
     padding: 1.5%;
-    border-bottom: rgb(247,247,250);
+    background-color: rgb(255,255,255);
+    border-bottom: solid rgb(247,247,250);
 }
 
 #add-task {
@@ -62,4 +58,11 @@ body {
     border-radius: 5px;
     padding: 0.5%;
     font-size: 70%;
+}
+
+.contenitore {
+    margin: auto;
+    width: 70%;
+
+    background-color: rgb(255,255,255);
 }
